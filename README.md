@@ -13,19 +13,24 @@ Tech stack:
 
 ## 📋 Requirements
 
-[Node.js](https://nodejs.org/en/) 18.0+ or 20.0+ 
+* [Node.js](https://nodejs.org/en/) 18.0+ or 20.0+ 
+* [BuildShip](https://buildship.app/) account (you can sign up for the free plan)
+* [OpenAI Platform](https://platform.openai.com/) account
 
 ## 🚀 Getting Started
 
 These are the instructions for setting up a local development environment.
 
-### Server Setup
-1. Sign up for a free [BuildShip](https://buildship.app/) account
-1. [Remix this BuildShip Workflow](https://buildship.app/remix/b5282209-ece1-4289-aa1f-123b0cd09743)
-1. Ship your remix
+### Setting up the server
+1. Log into yout [BuildShip](https://buildship.app/) account.
+1. Duplicate and remix [this BuildShip Workflow](https://buildship.app/remix/b5282209-ece1-4289-aa1f-123b0cd09743). This should create a new workflow named `Dream Interpretation`.
+1. Tap the settings icon then go to `Project Settings > Secret Keys`.
+1. Add a new secret named `OPENAI_API_KEY` and set this to your OpenAI's API key
+1. Navigate to the `Dream Interpretation` workflow
+1. Tap the `Ship` icon.
 1. Note the endpoint URL. It should look like `https://xy1ab2.buildship.run/api/interpret-dream`
 
-### Installing the app
+### Setting up the client
 
 1. Clone this repository
 1. Go to the project root
