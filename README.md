@@ -1,13 +1,17 @@
 # DreamIt
 
-Sample to explore building an app using low-code AI tools - [v0.dev](https://v0.de) and [BuildShip](https://buildship.app/).
+Sample to explore building an app using low-code AI tools - [v0.dev](https://v0.dev) and [BuildShip](https://buildship.app/).
 
 ![MIT License](https://badgen.net/badge/license/MIT/blue)
 ![Demonstrate](https://badgen.net/badge/stage/demonstrate/green)
 
 Tech stack:
-* Client - [Next.js](https://nextjs.org).
+* Client - [Next.js](https://nextjs.org)
+    * React+TypeScript+TailwindCSS
+    * Prototyped front-end components with [v0.dev](https://v0.dev) ([Prompt](https://v0.dev/chat/TRU74gQp8aI))
+    * Tweaked and debugged code with [Claude](https://claude.ai/) (3.5 Sonnet, New) and [ChatGPT](https://chatgpt.com/) (4o and o1-preview)
 * Server side - [BuildShip](https://buildship.app/)
+    * OpenAI for text and image generation
 
 **Note**: Since this is a sample app, there are no plans to take in contributions. Feel free to fork the project and make it your own.
 
