@@ -5,13 +5,27 @@ Sample to explore building an app using low-code AI tools - [v0.dev](https://v0.
 ![MIT License](https://badgen.net/badge/license/MIT/blue)
 ![Demonstrate](https://badgen.net/badge/stage/demonstrate/green)
 
-Tech stack:
+## Tech stack
 * Client - [Next.js](https://nextjs.org)
     * React+TypeScript+TailwindCSS
-    * Prototyped front-end components with [v0.dev](https://v0.dev) ([Prompt](https://v0.dev/chat/TRU74gQp8aI))
+    * Prototyped front-end components with [v0.dev](https://v0.dev) | [Prompt](https://v0.dev/chat/TRU74gQp8aI)
     * Tweaked and debugged code with [Claude](https://claude.ai/) (3.5 Sonnet, New) and [ChatGPT](https://chatgpt.com/) (4o and o1-preview)
 * Server side - [BuildShip](https://buildship.app/)
     * OpenAI for text and image generation
+
+## Screenshots
+
+### v0 Chat
+<img src="https://github.com/user-attachments/assets/ba587775-16ca-4906-941d-e2676d521d90" alt="DreamIt App Screen" width="700" height="auto">
+
+### BuildShip Workflow
+<img src="https://github.com/user-attachments/assets/51a9cd66-0415-4590-852f-4557667d7e84" alt="DreamIt App Screen" width="600" height="auto">
+
+
+### App
+
+<img src="https://github.com/user-attachments/assets/602ed09b-83ef-4d2f-bd6c-0a3418de5bc4" alt="DreamIt App Screen" width="700" height="auto">
+<img src="https://github.com/user-attachments/assets/25ccfebb-7e54-48a9-a6bf-292036ceefc1" alt="DreamIt App Screen" width="700" height="auto">
 
 **Note**: Since this is a sample app, there are no plans to take in contributions. Feel free to fork the project and make it your own.
 
